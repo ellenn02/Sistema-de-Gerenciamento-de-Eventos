@@ -1,0 +1,62 @@
+
+### .gitignore
+
+Crie um arquivo chamado `.gitignore` para garantir que arquivos desnecessários não sejam incluídos no repositório:
+
+
+
+### Enunciado do Projeto
+
+```markdown
+# Projeto: Sistema de Gerenciamento de Eventos
+
+## Objetivo
+
+Desenvolver um sistema completo para gerenciar eventos, participantes e suas inscrições utilizando comandos SQL. O sistema permitirá armazenar, consultar, atualizar e excluir dados sobre eventos e participantes, e registrar inscrições.
+
+## Requisitos
+
+1. **Criação do Banco de Dados**:
+   - Utilize o comando `CREATE DATABASE` para criar um banco de dados dedicado ao sistema de gerenciamento de eventos.
+
+2. **Criação das Tabelas**:
+   - **Eventos**: Armazene ID do evento, nome, data, local e descrição.
+   - **Participantes**: Armazene ID do participante, nome, e-mail e telefone.
+   - **Inscrições**: Armazene ID da inscrição, ID do evento, ID do participante e data da inscrição.
+   - Utilize `CREATE TABLE` para definir as tabelas e suas relações.
+
+3. **Inserção de Dados**:
+   - Adicione eventos à tabela `Eventos`.
+   - Adicione participantes à tabela `Participantes`.
+   - Registre inscrições na tabela `Inscricoes`, relacionando eventos e participantes.
+
+4. **Consultas**:
+   - Visualize todos os eventos disponíveis.
+   - Liste participantes inscritos em um evento específico.
+   - Verifique todos os eventos nos quais um participante está inscrito.
+   - Utilize `SELECT` com e sem `JOIN` para realizar essas consultas.
+
+5. **Atualizações**:
+   - Atualize informações de eventos, como data ou local.
+   - Modifique informações de contato dos participantes.
+
+6. **Exclusões**:
+   - Remova eventos passados do banco de dados.
+   - Cancele inscrições de participantes para eventos específicos.
+
+7. **Funcionalidades Adicionais**:
+   - Liste todos os participantes que se inscreveram em mais de um evento.
+   - Crie uma interface simples em SQL para interação com o sistema.
+
+## Entrega
+
+- **Código SQL**: Inclua o código SQL completo no repositório, abrangendo a criação do banco de dados, tabelas, inserção de dados, consultas, atualizações e exclusões.
+
+## Como Executar
+
+1. Clone o repositório.
+2. Importe o script SQL para o seu banco de dados.
+3. Execute as consultas e atualizações conforme necessário.
+
+---
+
