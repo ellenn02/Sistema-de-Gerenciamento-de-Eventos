@@ -1,0 +1,36 @@
+# Sistema de Gerenciamento de Eventos
+
+## Descrição
+
+Este projeto consiste na criação de um Sistema de Gerenciamento de Eventos utilizando SQL. O sistema permite o gerenciamento completo de eventos, participantes e inscrições. É possível criar eventos, adicionar participantes, registrar inscrições e realizar consultas, atualizações e exclusões de dados relacionados.
+
+## Funcionalidades
+
+- **Criação do Banco de Dados**: Configuração inicial do banco de dados `GerenciamentoEventos`.
+- **Tabelas**:
+  - **Eventos**: Armazena informações sobre eventos como nome, data, local e descrição.
+  - **Participantes**: Armazena informações sobre participantes como nome, e-mail e telefone.
+  - **Inscrições**: Registra as inscrições de participantes em eventos.
+- **Inserção de Dados**: Adiciona registros de eventos, participantes e inscrições.
+- **Consultas**:
+  - Visualizar todos os eventos disponíveis.
+  - Listar participantes inscritos em um evento específico.
+  - Verificar todos os eventos em que um participante está inscrito.
+- **Atualizações**: Atualizar informações de eventos e participantes.
+- **Exclusões**: Remover eventos passados e cancelar inscrições.
+- **Funcionalidades Adicionais**: Listar participantes que se inscreveram em mais de um evento.
+
+## Estrutura do Projeto
+
+O projeto inclui:
+
+- **`setup.sql`**: Script SQL para criar o banco de dados, tabelas, inserir dados e realizar consultas e operações.
+- **`README.md`**: Este documento.
+
+## Como Executar
+
+1. **Clone o Repositório**:
+   ```bash
+   git clone https://github.com/usuario/repo-nome.git
+   cd repo-nome
+
